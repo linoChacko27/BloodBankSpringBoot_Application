@@ -24,6 +24,7 @@ public class BloodDonorCRUDController {
     @GetMapping(value = "getDonorDetails/{bDonor_ID}")
     public BloodDonor getBloodDonorDetails(@PathVariable("bDonor_ID") Long bDonor_ID){
         if (bDonor_ID== null) {
+            int a=6;
             throw new MissingMandatoryParameters("Please Enter a Blood Donor ID");
         }
         else return bloodDonorCRUDService.getBloodDonorDetails(bDonor_ID);
