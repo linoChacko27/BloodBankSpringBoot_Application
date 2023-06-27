@@ -9,5 +9,6 @@ public class BloodDonorCRUD_Application {
 	public static void main(String[] args) {
 		SpringApplication.run(BloodDonorCRUD_Application.class, args);
 	}
- //
+ //yuoiusbshsgysgfsghsgy
+
 }
